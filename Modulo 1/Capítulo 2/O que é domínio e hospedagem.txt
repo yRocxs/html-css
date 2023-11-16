@@ -1,0 +1,43 @@
+Para ter um Domínio (Um nome único) e necessario:
+
+Pagar um valor anualmente
+
+E apos isso escolher algum TLDs
+
+-----------------------------------------------------------------------------------------------------
+
+Já para a hospedagem do site, e necessario:
+
+Um Espaço para armazenar arquivos
+
+Algumas hospedagem e paga mensalmente
+
+Tem que escolher o Espaço, memória, recursos.
+
+-----------------------------------------------------------------------------------------------------
+
+O que é uma URL?
+
+É um Localizador de recurso unico (Uniforme) url leva ao servidor certo.
+
+Ex: www.github.com/gustavoguanabara
+
+sub-domínio = WWW
+
+dominio = github (Nome escolhido antes)
+
+.com = TLD 
+
+Tudo após a " / " = Caminho  
+
+url = gustavoguanabara
+
+Outro exemplo: gustavoguanabara.github.io
+
+URL = gustavoguanabara.github.io
+
+Sub-domínio = gustavoguanabara
+
+Domínio = github
+
+TLD = .io

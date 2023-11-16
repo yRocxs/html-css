@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+
+    <h1>Usando links externos</h1>
+
+    <p>Voce pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a>.</p>
+
+    <p>Voce tambem pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">Canal gratuito no YouTube</a></p>
+
+    <h2>Usando links internos</h2>
+
+    <p>Esta é a primeira página do site. Se voce quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">Segunda página</a></p>
+
+    <p>Voce também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf" target="_blank">Baixar o livro em PDF</a></li>
+        <li><a href="livro/meulivro.rar" download="meulivro.rar" type="application/rar">Baixar compactado em ZIP</a></li>
+    </ul>
+
+    <h2>Outro atributo util é a tag de ancora (hreflang)</h2>
+
+    <p> Que permite indicar qual é o idioma principal do site para onde o link está desviando o fluxo de navegação. Isso vai permitir avisar ao navegador e a softwares de tradução como lidar caso o visitante opte por traduzir automaticamente os conteúdos.</p>
+
+    <p>Ex:</p> 
+
+    <a href="https://www.w3schools.com/html/" hreflang="en">
+        <p>Site da W3Schools (em Ingles)</p>
+    </a>
+
+    <h2>Tipos de Target</h2>
+
+    <p>Aqui em baixo esta os targets que podemos usar:</p>
+
+    <ul>
+        <li>_blank vai abrir o link em uma nova janela em branco;</li>
+        <li>_self vai abrir o link na janela ou frame atual (padrão);</li>
+        <li>_top vai desfazer todos os frames e abrir o destino no navegador completo;</li>
+        <li>_parent similar ao uso do _top em uma referência à janela mãe;</li>
+        <li>nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir.</li>
+    </ul>
+
+    <h2>Tipos de REL</h2>
+
+    <ul>
+        <li>next indica que o link é para a próxima parte do documento atual;</li>
+        <li>prev indica que o link é para a parte anterior do documento atual;</li>
+        <li>author indica que é um link para o site do autor do artigo atual;</li>
+        <li>external indica que é um link para outro site que não faz parte do site atual;</li>
+        <li>nofollow indica que é um link para um site não endossado, como um link pago.</li>
+    </ul>
+</body>
+</html>

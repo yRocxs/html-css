@@ -1,0 +1,29 @@
+Imagens em geral:
+
+Unsplash
+
+Pexels
+
+Freepik
+
+Rawpixel
+
+Pixabay
+
+Libreshot
+
+Wikimedia Commons
+-----------------
+
+Flavicons:
+
+IconArchive
+
+Favicon.cc (Caso queria desenhar o Icone)
+
+-----------
+Para usar Favicon precisamos de arquivos .ICO
+
+Converter PNG para .ICO
+
+favicon.io

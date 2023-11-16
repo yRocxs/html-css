@@ -1,0 +1,3 @@
+Semântica é: O signifcado dos vocábulos, por opsição á sua forma.
+
+Html5  é focado em tags semanticas, com significado e não só com formas

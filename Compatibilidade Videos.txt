@@ -1,0 +1,7 @@
+Os navegadores no HTML5 usam:
+
+MP4 (M4V)
+
+WEBM
+
+OGG (OGV)

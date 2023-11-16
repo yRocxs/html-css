@@ -1,2 +1,0 @@
-Função para selecionar cores em sites:
-Extensão: ColorZilla

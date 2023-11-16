@@ -1,5 +1,0 @@
-Configurações global das CSS:
-
-* {
-    height: 100%;
-}

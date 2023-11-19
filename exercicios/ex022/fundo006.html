@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionamento</title>
+    <title>Fundo Fixo de tela</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shorthand -background 
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,9 +35,14 @@
 </head>
 <body>
     <main>
-        <h1>Teste de Imagem de fundo</h1>
+        <h1>
+            Teste de Imagem de fundo
+        </h1>
 
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis debitis voluptas, sed sequi numquam ex eius facilis possimus accusamus? Consequatur et omnis exercitationem facilis nemo, vero laudantium amet quibusdam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odit perspiciatis minima provident culpa fugit, nesciunt quod voluptates quaerat sit ratione ducimus voluptatum sequi odio tempora nisi dolores fuga dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quod laboriosam ea deserunt libero ducimus ipsum facere dolore dolorum repellat? Id cupiditate earum autem nihil porro incidunt. Soluta, velit consequatur.</p>
+        <p> 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis debitis voluptas, sed sequi numquam ex eius facilis possimus accusamus? Consequatur et omnis exercitationem facilis nemo, vero laudantium amet quibusdam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odit perspiciatis minima provident culpa fugit, nesciunt quod voluptates quaerat sit ratione ducimus voluptatum sequi odio tempora nisi dolores fuga dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quod laboriosam ea deserunt libero ducimus ipsum facere dolore dolorum repellat? Id cupiditate earum autem nihil porro incidunt. Soluta, velit consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab magnam totam expedita explicabo exercitationem. Ad laudantium accusamus eligendi veritatis possimus. Eligendi blanditiis fugiat eum perspiciatis, corporis fugit corrupti? Nobis, eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod provident a doloremque consequatur, similique pariatur nobis voluptatum rerum impedit voluptatibus natus perspiciatis sequi sunt. Non mollitia in nostrum aliquam laboriosam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex fuga possimus rem consequatur veniam perspiciatis doloribus cumque consectetur modi quod distinctio vel quidem, maxime, pariatur aliquid? Dolores laborum odit doloremque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, tenetur molestiae atque est voluptatum omnis? Voluptatem, rerum laboriosam. Molestiae, itaque a? Rem nesciunt, tempora quisquam a nostrum labore excepturi ullam.  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni repudiandae, enim quia blanditiis dolorum labore nulla vitae adipisci quod incidunt deleniti! Consequatur dolores blanditiis maiores saepe rem fugiat sed nostrum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores magnam blanditiis tempore itaque veritatis fugit, alias nulla, placeat rerum, provident pariatur velit est labore? Ducimus deserunt architecto nesciunt fugit explicabo. 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis debitis voluptas, sed sequi numquam ex eius facilis possimus accusamus? Consequatur et omnis exercitationem facilis nemo, vero laudantium amet quibusdam esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odit perspiciatis minima provident culpa fugit, nesciunt quod voluptates quaerat sit ratione ducimus voluptatum sequi odio tempora nisi dolores fuga dignissimos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quod laboriosam ea deserunt libero ducimus ipsum facere dolore dolorum repellat? Id cupiditate earum autem nihil porro incidunt. Soluta, velit consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab magnam totam expedita explicabo exercitationem. Ad laudantium accusamus eligendi veritatis possimus. Eligendi blanditiis fugiat eum perspiciatis, corporis fugit corrupti? Nobis, eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod provident a doloremque consequatur, similique pariatur nobis voluptatum rerum impedit voluptatibus natus perspiciatis sequi sunt. Non mollitia in nostrum aliquam laboriosam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex fuga possimus rem consequatur veniam perspiciatis doloribus cumque consectetur modi quod distinctio vel quidem, maxime, pariatur aliquid? Dolores laborum odit doloremque? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, tenetur molestiae atque est voluptatum omnis? Voluptatem, rerum laboriosam. Molestiae, itaque a? Rem nesciunt, tempora quisquam a nostrum labore excepturi ullam.  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni repudiandae, enim quia blanditiis dolorum labore nulla vitae adipisci quod incidunt deleniti! Consequatur dolores blanditiis maiores saepe rem fugiat sed nostrum? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores magnam blanditiis tempore itaque veritatis fugit, alias nulla, placeat rerum, provident pariatur velit est labore? Ducimus deserunt architecto nesciunt fugit explicabo.
+        </p>
 
     </main>
 </body>
